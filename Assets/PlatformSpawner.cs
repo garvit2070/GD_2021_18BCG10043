@@ -13,7 +13,7 @@ public class PlatformSpawner : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-            StartCoroutine("Respawn", 2f);
+            StartCoroutine("Respawn", 2.5f);
     }
 
     // Update is called once per frame
@@ -22,8 +22,6 @@ public class PlatformSpawner : MonoBehaviour
         posx = GameObject.FindGameObjectWithTag("Pulpit").transform.position.x;
         posz = GameObject.FindGameObjectWithTag("Pulpit").transform.position.z;
         posy = GameObject.FindGameObjectWithTag("Pulpit").transform.position.y;
-
-
        
     }
 
